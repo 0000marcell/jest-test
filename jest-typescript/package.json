@@ -1,0 +1,21 @@
+{
+  "name": "jest-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src./calc.js",
+  "scripts": {
+    "start": "tsc ./src/calc.ts --module amd",
+    "test": "jest --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-typescript": "^7.10.4",
+    "typescript": "^4.0.2"
+  },
+  "dependencies": {
+    "jest": "^26.4.2"
+  }
+}
